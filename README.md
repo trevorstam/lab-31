@@ -1,42 +1,68 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Project Name: 
+Lab 31 React and Redux
 
-### Author: Student/Group Name
+### Author: 
+Trevor Stam
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [assignment 1](https://codesandbox.io/s/2jqkr1rn5n)
+* [assignment 2](https://codesandbox.io/s/km3l2zj2q5)
 
-### Modules
-#### `modulename.js`
+### Modules Assignment 1
+#### `index.js`
 ##### Exported Values and Methods
+`class Main`
+#### `App.js`
+##### Exported Values and Methods
+`class App`
+render()
+mapStateToProps
+mapDispatchToProps
+#### `store/actions.js`
+##### Exported Values and Methods
+`class actions`
+changer()
+#### `store/index.js`
+##### Exported Values and Methods
+createStore
+#### `store/reducer.js`
+`class Main`
+#### `middleware/reporter.js`
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+### Modules Assignment 2
+#### `index.js`
+##### Exported Values and Methods
+`class Main`
+#### `app.js`
+##### Exported Values and Methods
+`class App`
+changeMyName
+render()
+mapStateToProps
+mapDispatchToProps --> handleChange
+#### `numbers.js`
+##### Exported Values and Methods
+`class Numbers`
+render()
+mapStateToProps
+mapDispatchToProps --> handleNumbers, resetNumbers
+#### `store/index.js`
+#### `store/app-actions.js`
+#### `store/app-reducer.js`
+#### `store/number-actions.js`
+#### `store/number-reducer.js`
+##### Exported Values and Methods
+numberChanger()
+resetNumber()
+#### `middleware/reporter.js`
 
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+No time to do tests
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML-assignment1](./assets/UML31-1.jpg)
+![UML-assignment2](./assets/UML31-2.jpg)
